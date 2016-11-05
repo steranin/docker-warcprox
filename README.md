@@ -4,7 +4,7 @@ Alpine warcprox container
 Usage
 
 ```shell
-docker run -p 8000:8000 \
+docker run -p 8888:8888 \
            -v /path/to/db:/db \
            -v /path/to/warcs:/warcs \
            -v /path/to/ca:/ca \
@@ -17,7 +17,7 @@ docker run -p 8000:8000 \
 With Kafka support
 
 ```shell
-docker run -p 8000:8000 \
+docker run -p 8888:8888 \
            -v /path/to/db:/db \
            -v /path/to/warcs:/warcs \
            -v /path/to/ca:/ca \
